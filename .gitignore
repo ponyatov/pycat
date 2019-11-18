@@ -1,0 +1,14 @@
+*~
+*.swp
+
+*.exe
+*.log
+
+bin/
+include/
+lib/
+lib64
+share/
+pyvenv.cfg
+
+.ipynb_checkpoints/

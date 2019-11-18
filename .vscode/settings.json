@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "bin/python3",
+    "picat.executablePath": "/home/ponyatov/maude/picat/Picat/picat",
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.build",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                // "workbench.action.terminal.focus",
+                {"command": "workbench.action.terminal.sendSequence","args": {"text": "\u000Dclear ; make\u000D"}}
+            ],
+        },
+    ],
+}
