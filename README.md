@@ -5,6 +5,8 @@ github: https://github.com/ponyatov/pycat
 
 Jupyter notebook render: https://nbviewer.jupyter.org/github/ponyatov/pycat/blob/master/pycat.ipynb
 
+Run online with Binder: https://mybinder.org/v2/gh/ponyatov/pycat/master?filepath=pycat.ipynb
+
 This manual is about learning Picat programming language by reimplementing it yourself from scratch.
 
 This method is not for a total newbie in programming as you must know Python a bit to start, and have some entry-level programming skills. The Python was selected as it is the most popular programming language now for programming learning, and because this language implementation is so dynamic, as you can implement your own language system atop of PVM runtime. The advantage of learning by reimplementing is you are able not only embed this scripting engine to any software system you are doing but also deeply understand the original Picat.
