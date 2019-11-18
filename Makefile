@@ -30,3 +30,18 @@ update: requirements.txt
 .PHONY: requirements.txt
 requirements.txt:
 	$(PIP) freeze | grep -v 0.0.0 > $@
+
+MERGE  = Makefile README.md .gitignore
+MERGE += pycat.ipynb requirements.txt
+
+merge:
+	git checkout master
+	git checkout shadow -- $(MERGE)
+
+NOW = $(shell date +%d%m%y)
+REL = $(shell git rev-parse --short=4 HEAD)
+
+release:
+	git tag $(NOW)-$(REL)
+	git push -v && git push -v --tags
+	git checkout shadow
