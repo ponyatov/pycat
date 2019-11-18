@@ -29,10 +29,10 @@ update: requirements.txt
 
 .PHONY: requirements.txt
 requirements.txt:
-	$(PIP) freeze | grep -v 0.0.0 > $@
+	$(PIP) freeze | egrep -v "(terminado|0.0.0)" > $@
 
 MERGE  = Makefile README.md .gitignore
-MERGE += pycat.ipynb requirements.txt
+MERGE += pycat.ipynb requirements.txt apt.txt postBuild
 
 merge:
 	git checkout master
