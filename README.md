@@ -5,7 +5,7 @@ github: https://github.com/ponyatov/pycat
 
 Jupyter notebook render: https://nbviewer.jupyter.org/github/ponyatov/pycat/blob/master/pycat.ipynb
 
-Run online with Binder: https://mybinder.org/v2/gh/ponyatov/pycat/master?filepath=pycat.ipynb
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ponyatov/pycat/master?filepath=pycat.ipynb)
 
 This manual is about learning Picat programming language by reimplementing it yourself from scratch.
 
@@ -63,5 +63,7 @@ IN THE SOFTWARE.
 * [Picat Google group](https://groups.google.com/forum/#!forum/picat-lang)
   * http://picat-lang.org/
     * [Constraint Solving and Planning with Picat](http://picat-lang.org/picatbook2015.html) (c) Neng-Fa Zhou, Håkan Kjellerstrand, Jonathan Fruhman
+    * [Hakan Kjellerstrand page](http://hakank.org/picat/)
 
-* [Picat code samples](https://github.com/claudiosa/CCS/tree/master/picat) (c) Claudio Cesar
+* [Picat code samples](https://github.com/claudiosa/CCS/tree/master/picat) (c) Claudio Cesar de Sá
+  * [Udemy course in Portuguese](https://www.udemy.com/course/picat-uma-linguagem-de-programacao-multiparadigma/)
