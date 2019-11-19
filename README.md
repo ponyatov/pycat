@@ -67,3 +67,8 @@ IN THE SOFTWARE.
 
 * [Picat code samples](https://github.com/claudiosa/CCS/tree/master/picat) (c) Claudio Cesar de Sá
   * [Udemy course in Portuguese](https://www.udemy.com/course/picat-uma-linguagem-de-programacao-multiparadigma/)
+
+#### Prolog implementation
+
+* [Yield Prolog](http://yieldprolog.sourceforge.net/)
+* [Warren's Abstract Machine: A Tutorial Reconstruction](http://wambook.sourceforge.net/)
