@@ -1,7 +1,7 @@
 
 CWD     = $(CURDIR)
 MODULE  = $(notdir $(CWD))
-GZ     ?= /tmp
+GZ     ?= $(HOME)/gz
 SRC    ?= $(CWD)/src
 
 PI  = $(CWD)/Picat/picat

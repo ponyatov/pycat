@@ -12,5 +12,6 @@ share/
 pyvenv.cfg
 
 .ipynb_checkpoints/
+__pycache__/
 
 Picat/
