@@ -1,6 +1,25 @@
 main => 
-    println('Hello World'),
-    iter([1,2,3,4],println).
+    literals,
+    iter([1,2,3,4],print),
+    formatted,
+    structure,arrays.
 
-iter([]   ,X) => true.
+arrays =>
+    A = {1,2,3} , println(A).
+
+structure =>
+    S = $point(1,2,3), println(['structure:',S]).
+
+formatted =>
+    writef("%s\n","789").
+
+literals =>
+    % atom
+    println('Hello World'),
+    % list of numbers
+    println([123,(4.56,7.0e8),0xFF,0b1101]),
+    println("string"++" concat").
+    
+% recursive loop with callback
+iter([]   ,X) => call(X,"\n").
 iter([H|T],X) => call(X,H), iter(T,X).
