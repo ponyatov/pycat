@@ -8,6 +8,9 @@ PI  = $(CWD)/Picat/picat
 PY  = $(CWD)/bin/python3
 PIP = $(CWD)/bin/pip3
 
+go: $(PI) pi.pi
+	$^
+
 install: $(PI) $(PY) doc
 
 doc: doc/wambook.pdf doc/book.pdf doc/manual.pdf

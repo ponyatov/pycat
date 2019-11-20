@@ -1,0 +1,6 @@
+main => 
+    println('Hello World'),
+    iter([1,2,3,4],println).
+
+iter([]   ,X) => true.
+iter([H|T],X) => call(X,H), iter(T,X).
