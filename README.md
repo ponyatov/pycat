@@ -58,6 +58,8 @@ IN THE SOFTWARE.
 * **Programming Python, 4th Edition** (c) Mark Lutz, O'Reilly 2019
   * [Изучаем Python. Том 1](https://www.ozon.ru/context/detail/id/156082566/) (c) Марк Лутц, М.: Вильямс, 2019
 
+* [Programming languages (c) Hrafn Loftsson](https://www.youtube.com/playlist?list=PLUcoXpFhBO_e1EHRjxhOsDGYHontbzz-Y)
+
 #### Picat language
 
 * [Picat Google group](https://groups.google.com/forum/#!forum/picat-lang)
